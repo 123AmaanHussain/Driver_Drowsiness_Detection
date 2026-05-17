@@ -1,0 +1,48 @@
+# ─── Python ──────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Virtual environment
+venv/
+env/
+.env
+
+# ─── Large model / binary files ──────────
+models/
+face_landmarker.task
+*.keras
+*.h5
+*.tflite
+*.task
+
+# ─── Media / audio ───────────────────────
+alarm.wav
+
+# ─── Unnecessary project docs ────────────
+VIVA_QUESTIONS.md
+
+# ─── Frontend (Node) ─────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# ─── OS & editor files ───────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# ─── Logs ────────────────────────────────
+*.log
+npm-debug.log*
